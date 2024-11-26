@@ -1,0 +1,47 @@
+
+Written Contract for Conditional Payment with Self-Execution Provision
+This Agreement is entered into on [Insert Date] by and between:
+Wine Importer (Buyer): [Insert Buyer Name and Address], hereinafter referred to as "Buyer."
+Shipping Company (Seller): [Insert Shipping Company Name and Address], hereinafter referred to as "Seller."
+
+Recitals
+WHEREAS, the Buyer agrees to engage the Seller for shipping services to transport wine from Europe to the United States;
+WHEREAS, the Seller agrees to provide these shipping services and deliver the goods to the agreed port in the United States by [Insert Agreed Deadline];
+WHEREAS, the Buyer and Seller agree that payment for services shall be conditional upon performance and facilitated by a smart contract, which automates the release of payment based on delivery conditions through a predefined self-execution mechanism;
+WHEREAS, the smart contract shall incorporate an automated oracle system (the "Activator") that independently verifies delivery conditions and triggers the performance of the contract based on objective data points;
+NOW, THEREFORE, the parties agree as follows:
+
+Article 1: Roles and Responsibilities
+Buyer Responsibilities:
+The Buyer shall deposit the full payment of [Insert Total Payment Amount] into an escrow account integrated with the smart contract upon the execution of this Agreement.
+The Buyer agrees that the payment will be released automatically by the smart contract, triggered by the verification provided by the Activator.
+Seller Responsibilities:
+The Seller agrees to deliver the wine shipment to the agreed port in the United States on or before the delivery deadline of [Insert Date].
+The Seller acknowledges that the release of payment is governed by the smart contract, which operates based on delivery data verified by the Activator.
+Activator Role:
+The Activator shall act as the oracle integrated within the smart contract, responsible for verifying delivery conditions using objective criteria, such as shipment tracking data and confirmation of arrival at the agreed port.
+The Activator shall trigger the self-execution of the smart contract, releasing payment from escrow to the Seller upon verification of delivery conditions or enforcing the adjusted remedies as outlined in Article 2.
+
+Article 2: Payment Conditions and Self-Execution Provision
+The parties agree that the performance of this Agreement shall be governed by a smart contract enabled with a self-execution mechanism facilitated by the Activator:
+Timely Delivery: If the goods arrive at the agreed port on or before the delivery deadline, the smart contract shall release the full payment from the escrow to the Seller.
+Late Delivery: If the goods arrive at the agreed port after the delivery deadline, the smart contract shall release a reduced payment to the Seller in the amount of [Insert Reduced Payment Amount].
+Non-Delivery: If the goods fail to arrive at the agreed port, the smart contract shall return the escrowed funds to the Buyer.
+Fallback Mechanism: In the event the Activator or smart contract fails to perform as expected or cannot verify delivery conditions, this Agreement shall revert to traditional enforcement through legal remedies, preserving the rights of both parties under applicable law.
+
+Article 3: Governing Law and Dispute Resolution
+This Agreement shall be governed by the laws of the United States, including the Uniform Commercial Code (UCC), where applicable.
+In the event of disputes arising from nonperformance or failure of the smart contract or Activator, the parties agree to resolve such disputes in accordance with UCC provisions, including UCC § 2-711 for buyer remedies and other relevant sections.
+
+Article 4: Miscellaneous Provisions
+Entire Agreement: This Agreement constitutes the entire understanding between the parties and supersedes all prior agreements or understandings.
+Amendments: Any amendments to this Agreement must be in writing and signed by both parties.
+Signatures: This Agreement is effective upon the signatures of both parties.
+
+SIGNATURES:
+Buyer: ___________________________
+Name: [Insert Buyer Name]
+Date: [Insert Date]
+Seller: ___________________________
+Name: [Insert Seller Name]
+Date: [Insert Date]
